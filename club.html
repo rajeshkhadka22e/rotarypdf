@@ -1,264 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rotary Club Meeting Minutes</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
-        .signature {
-            font-family: "Brush Script MT", cursive;
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-
-        .signature-fancy {
-            font-family: "Dancing Script", cursive;
-            font-size: 20px;
-            font-weight: 700;
-        }
-            @media print {
-      @page {
-        size: A4;
-        margin: 25mm; /* standard 1 inch margin */
+      .signature {
+        font-family: "Brush Script MT", cursive;
+        font-size: 18px;
+        font-weight: bold;
       }
-      body {
-        margin: 0;
-        padding: 0;
-      }
-    }
 
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+      .signature-fancy {
+        font-family: "Dancing Script", cursive;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      @media print {
+        @page {
+          size: A4;
+          margin: 25mm; /* standard 1 inch margin */
+        }
+        body {
+          margin: 0;
+          padding: 0;
+        }
+      }
     </style>
-</head>
+  </head>
 
-<body class="py-8">
+  <body class="py-8">
     <div class="print:max-w-[210mm] print:p-0 p-8 bg-white">
-        <!-- Header with logos -->
-        <div class="flex justify-between items-center text-center md:p-8 p-4 gap-5">
-            <div class="flex items-center md:space-x-8 space-x-4">
-                <!-- Rotary Logo -->
-                <div class="flex items-center border-r px-2 border-black">
-                    <img src="rclogon.png" class="md:h-20 md:w-38 h-20 w-[14rem] object-contain "
-                        alt="" />
-                </div>
+      <!-- Header with logos -->
+      <div
+        class="flex justify-between items-center text-center md:p-8 p-4 gap-5"
+      >
+        <div class="flex items-center md:space-x-8 space-x-4">
+          <!-- Rotary Logo -->
+          <div class="flex items-center border-r px-2 border-black">
+            <img
+              src="rclogon.png"
+              class="md:h-20 md:w-38 h-20 w-[14rem] object-contain"
+              alt=""
+            />
+          </div>
 
-                <!-- Unite for Good Logo -->
-                <div
-                    class="flex flex-col text-[#408fc8] md:font-extrabold font-bold text-xl md:text-2xl md:mr-2 italic">
-                    <span>UNITE</span>
-                    <span class="pl-6">FOR</span>
-                    <span class="pl-10">GOOD</span>
-                </div>
-
-
-            </div>
-            <div class="md:w-20 md:h-20 bg-amber-800 rounded-full flex items-center justify-center text-white">
-                <img src="image.png" class="md:object-cover object-contain" alt="" />
-            </div>
-
-            <!-- Anniversary Badge -->
-
+          <!-- Unite for Good Logo -->
+          <div
+            class="flex flex-col text-[#408fc8] md:font-extrabold font-bold text-xl md:text-2xl md:mr-2 italic"
+          >
+            <span>UNITE</span>
+            <span class="pl-6">FOR</span>
+            <span class="pl-10">GOOD</span>
+          </div>
+        </div>
+        <div
+          class="md:w-20 md:h-20 bg-amber-800 rounded-full flex items-center justify-center text-white"
+        >
+          <img src="image.png" class="md:object-cover object-contain" alt="" />
         </div>
 
-        <!-- Main Content -->
-        <div class="pt-14 px-8">
-            <!-- Title -->
-            <div class="text-center mb-8">
-                <h1 class="text-4xl font-bold text-gray-800 mb-2">Meeting Minute</h1>
-                <h2 class="text-3xl font-bold text-gray-800">
-                    720th General Meeting
-                </h2>
-            </div>
+        <!-- Anniversary Badge -->
+      </div>
 
-            <!-- Meeting Details -->
-            <div class="flex flex-col mb-4">
-                <div class="flex justify-between border-t-[2px] border-gray-300 text-xl py-4 px-4">
-                    <div class="font-normal">
-                        <strong>Location</strong> Hotel Smart, Dumbarahi
-                    </div>
-                    <div class="font-normal">
-                        <strong>Date</strong> 15th September, 2025
-                    </div>
-                </div>
-                <div class="flex justify-between border-y-[2px] border-gray-300 text-xl py-4 px-4">
-                    <div class="font-normal flex flex-col">
-                        <span><strong>Total Members:</strong> 15</span>
-                        <span><strong>Guest: </strong> 0</span>
-                    </div>
-                    <div class="font-normal">
-                        <strong>Sunshine Colected:</strong>Npr. 2500
-                    </div>
-                </div>
-            </div>
-
-            <!-- Meeting Description -->
-            <div class="mb-4">
-                <p class="mb-4 text-[20px] font-[300]">
-                    The regular meeting of the Rotary Club of Matribhumi Baluwabar was
-                    duly convened and called to order by president, Rtn. Nirmal Dhakal.
-                </p>
-                <p class="text-[20px] font-[300]">
-                    The session commenced with the honor to National Anthem and
-                    recitation of the Rotary motto and observance of standard protocol.
-                </p>
-            </div>
-
-            <!-- Attendance -->
-            <div class="mb-8">
-                <h3 class="text-3xl font-bold mb-4">Attendance</h3>
-                <p class="mb-6 text-[20px] font-[300]">
-                    The meeting was honored by the presence of the following
-                    distinguished Rotarians and guests.
-                </p>
-
-                <div class="">
-                    <div class="flex items-center text-center pb-2">
-                        <div class="flex md:mr-24 mr-0 text-center items-center">
-                            <span class="font-bold md:text-xl  text-base md:mr-24 mr-12">Rtn. Nirmal Dhakal.</span>
-                            <span class="text-[20px] font-[300]">President</span>
-                        </div>
-                        <img class="h-[4rem] object-cover" src="signature.png" alt="" />
-                    </div>
-                    <div class="flex items-center text-center pb-2">
-                        <div class="flex md:mr-24 mr-0 text-center items-center">
-                            <span class="font-bold md:text-xl  text-base md:mr-24 mr-12">Rtn. Nirmal Dhakal.</span>
-                            <span class="text-[20px] font-[300]">President</span>
-                        </div>
-                        <img class="h-[4rem] object-cover" src="signature.png" alt="" />
-                    </div>
-                    <div class="flex items-center text-center pb-2">
-                        <div class="flex md:mr-24 mr-0 text-center items-center">
-                            <span class="font-bold md:text-xl  text-base md:mr-24 mr-12">Rtn. Nirmal Dhakal.</span>
-                            <span class="text-[20px] font-[300]">President</span>
-                        </div>
-                        <img class="h-[4rem] object-cover" src="signature.png" alt="" />
-                    </div>
-
-
-                </div>
-
-                <!-- Confirmation of Previous Minutes -->
-                <div class="mt-8  ">
-                    <h3 class="text-3xl font-bold mb-4">
-                        Confirmation of Previous Minutes
-                    </h3>
-                    <p class="text-[20px] font-[300]">
-                        The minutes of the preceeding regular meeting were reviewed and
-                        unanimously ratified without amendments.
-                    </p>
-                </div>
-                <div class="grid  md:grid-cols-3 grid-cols-1 print:flex md:space-y-0 space-y-6 md:gap-0 my-20">
-                    <img class="h-[5rem] -rotate-[30deg] object-cover" src="signature.png" alt="" />
-                    <img class="h-[5rem] -rotate-[30deg] object-cover" src="signature.png" alt="" />
-                    <img class="h-[5rem] -rotate-[30deg] object-cover" src="signature.png" alt="" />
-                </div>
-            </div>
+      <!-- Main Content -->
+      <div class="pt-14 px-8">
+        <!-- Title -->
+        <div class="text-center mb-8">
+          <h1 class="text-4xl font-bold text-gray-800 mb-2">Meeting Minute</h1>
+          <h2 class="text-3xl font-bold text-gray-800">
+            720th General Meeting
+          </h2>
         </div>
-    <!-- Second Page -->
-       
 
-            <!-- Main Content -->
-            <div class="pt-14 px-8">
-                <h3 class="text-2xl font-bold mb-4">
-                    Agenda Deliberations and Resolutions
-                </h3>
-
-                <!-- Meeting Details -->
-                <div class="flex flex-col mb-6 gap-4">
-                    <div class="text-lg py-6 border-b-2 border-gray-300 flex flex-col gap-6">
-                        <div class="font-[300] md:flex">
-                            <div class="w-36 font-bold">Agenda</div> The minutes of the preceeding
-                            regular meeting were reviewed and unanimously ratified without
-                            amendments.
-                        </div>
-                        <div class="font-[300] md:flex">
-                            <div class="w-36  font-bold">Outcome</div> The minutes of the
-                            preceeding regular meeting were reviewed and unanimously ratified
-                            without amendments.
-                        </div>
-                    </div>
-                    <div class="text-lg py-6 border-b-2 border-gray-300 flex flex-col gap-6">
-                        <div class="font-[300] md:flex">
-                            <div class="w-36 font-bold">Agenda</div> The minutes of the preceeding
-                            regular meeting were reviewed and unanimously ratified without
-                            amendments.
-                        </div>
-                        <div class="font-[300] md:flex">
-                            <div class="w-36  font-bold">Outcome</div> The minutes of the
-                            preceeding regular meeting were reviewed and unanimously ratified
-                            without amendments.
-                        </div>
-                    </div>
-                    <div class="text-lg py-6 border-b-2 border-gray-300 flex flex-col gap-6">
-                        <div class="font-[300] md:flex">
-                            <div class="w-36 font-bold">Agenda</div> The minutes of the preceeding
-                            regular meeting were reviewed and unanimously ratified without
-                            amendments.
-                        </div>
-                        <div class="font-[300] md:flex">
-                            <div class="w-36  font-bold">Outcome</div> The minutes of the
-                            preceeding regular meeting were reviewed and unanimously ratified
-                            without amendments.
-                        </div>
-                    </div>
-                    <div class="text-lg py-6 border-b-2 border-gray-300 flex flex-col gap-6">
-                        <div class="font-[300] md:flex">
-                            <div class="w-36 font-bold">Agenda</div> The minutes of the preceeding
-                            regular meeting were reviewed and unanimously ratified without
-                            amendments.
-                        </div>
-                        <div class="font-[300] md:flex">
-                            <div class="w-36  font-bold">Outcome</div> The minutes of the
-                            preceeding regular meeting were reviewed and unanimously ratified
-                            without amendments.
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col">
-                <div class="mt-12 print-mt-14">
-                    <h3 class="text-2xl font-bold mb-4">Any other Business</h3>
-                    <p class="text-[20px] font-[300]">
-                        The floor was opened for any additional deliberations.
-                    </p>
-                </div>
-
-                <div class="mt-12 print-mt-14">
-                    <h3 class="text-2xl font-bold mb-4">Closing Remarks</h3>
-                    <p class="text-[20px] font-[300]">
-                        The President extended sincere appreciation to all attendees for
-                        their constructive participation, thoughtful insights and reaffirmed
-                        the Club's commitment to impactful service and meaningful fellowship
-                    </p>
-                </div>
-                <div class="mt-12 print-mt-14">
-                    <h3 class="text-2xl font-bold mb-4">Adjournment</h3>
-                    <p class="text-[20px] font-[300]">
-                        There being no further business, the meeting was adjourned at 3:30
-                        PM, followed by customary fellowship.
-                    </p>
-                </div>
-                <div class="mt-14 ">
-                    <h3 class="text-2xl font-bold mb-4">Prepared By</h3>
-                    <p class="text-[20px] font-[300]">Subash Sapkota</p>
-
-                    <p class="text-[20px] font-[300]">Club Secretary</p>
-                    <p class="text-[20px] font-[300]">
-                        For Rotary Club of Matribhumi Baluwabar
-                    </p>
-                </div>
-                </div>
-                
-
-                <div class="grid md:grid-cols-3  grid-cols-1 print:flex md:space-y-0 space-y-6 md:gap-0 my-20">
-                    <img class="h-[5rem] -rotate-[30deg] object-cover" src="signature.png" alt="" />
-                    <img class="h-[5rem] -rotate-[30deg] object-cover" src="signature.png" alt="" />
-                    <img class="h-[5rem] -rotate-[30deg] object-cover" src="signature.png" alt="" />
-                </div>
+        <!-- Meeting Details -->
+        <div class="flex flex-col mb-4">
+          <div
+            class="flex justify-between border-t-[2px] border-gray-300 text-xl py-4 px-4"
+          >
+            <div class="font-normal">
+              <strong>Location</strong> Hotel Smart, Dumbarahi
             </div>
+            <div class="font-normal">
+              <strong>Date</strong> 15th September, 2025
+            </div>
+          </div>
+          <div
+            class="flex justify-between border-y-[2px] border-gray-300 text-xl py-4 px-4"
+          >
+            <div class="font-normal flex flex-col">
+              <span><strong>Total Members:</strong> 15</span>
+              <span><strong>Guest: </strong> 0</span>
+            </div>
+            <div class="font-normal">
+              <strong>Sunshine Colected:</strong>Npr. 2500
+            </div>
+          </div>
         </div>
-</body>
 
+        <!-- Meeting Description -->
+        <div class="mb-4">
+          <p class="mb-4 text-[20px] font-[300]">
+            The regular meeting of the Rotary Club of Matribhumi Baluwabar was
+            duly convened and called to order by president, Rtn. Nirmal Dhakal.
+          </p>
+          <p class="text-[20px] font-[300]">
+            The session commenced with the honor to National Anthem and
+            recitation of the Rotary motto and observance of standard protocol.
+          </p>
+        </div>
+
+        <!-- Attendance -->
+        <div class="mb-8">
+          <h3 class="text-3xl font-bold mb-4">Attendance</h3>
+          <p class="mb-6 text-[20px] font-[300]">
+            The meeting was honored by the presence of the following
+            distinguished Rotarians and guests.
+          </p>
+
+          <div class="">
+            <div class="flex items-center text-center pb-2">
+              <div class="flex md:mr-24 mr-0 text-center items-center">
+                <span class="font-bold md:text-xl text-base md:mr-24 mr-12"
+                  >Rtn. Nirmal Dhakal.</span
+                >
+                <span class="text-[20px] font-[300]">President</span>
+              </div>
+              <img class="h-[4rem] object-cover" src="signature.png" alt="" />
+            </div>
+            <div class="flex items-center text-center pb-2">
+              <div class="flex md:mr-24 mr-0 text-center items-center">
+                <span class="font-bold md:text-xl text-base md:mr-24 mr-12"
+                  >Rtn. Nirmal Dhakal.</span
+                >
+                <span class="text-[20px] font-[300]">President</span>
+              </div>
+              <img class="h-[4rem] object-cover" src="signature.png" alt="" />
+            </div>
+            <div class="flex items-center text-center pb-2">
+              <div class="flex md:mr-24 mr-0 text-center items-center">
+                <span class="font-bold md:text-xl text-base md:mr-24 mr-12"
+                  >Rtn. Nirmal Dhakal.</span
+                >
+                <span class="text-[20px] font-[300]">President</span>
+              </div>
+              <img class="h-[4rem] object-cover" src="signature.png" alt="" />
+            </div>
+          </div>
+
+          <!-- Confirmation of Previous Minutes -->
+          <div class="mt-8">
+            <h3 class="text-3xl font-bold mb-4">
+              Confirmation of Previous Minutes
+            </h3>
+            <p class="text-[20px] font-[300]">
+              The minutes of the preceeding regular meeting were reviewed and
+              unanimously ratified without amendments.
+            </p>
+          </div>
+          <div
+            class="grid md:grid-cols-3 grid-cols-1 print:flex md:space-y-0 space-y-6 md:gap-0 my-20"
+          >
+            <img
+              class="h-[5rem] -rotate-[30deg] object-cover"
+              src="signature.png"
+              alt=""
+            />
+            <img
+              class="h-[5rem] -rotate-[30deg] object-cover"
+              src="signature.png"
+              alt=""
+            />
+            <img
+              class="h-[5rem] -rotate-[30deg] object-cover"
+              src="signature.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Second Page -->
+
+      <!-- Main Content -->
+      <div class="pt-14 px-8">
+        <h3 class="text-2xl font-bold mb-4">
+          Agenda Deliberations and Resolutions
+        </h3>
+
+        <!-- Meeting Details -->
+        <div class="flex flex-col mb-6 gap-4">
+          <div
+            class="text-lg py-6 border-b-2 border-gray-300 flex flex-col gap-6"
+          >
+            <div class="font-[300] md:flex">
+              <div class="w-36 font-bold">Agenda</div>
+              The minutes of the preceeding regular meeting were reviewed and
+              unanimously ratified without amendments.
+            </div>
+            <div class="font-[300] md:flex">
+              <div class="w-36 font-bold">Outcome</div>
+              The minutes of the preceeding regular meeting were reviewed and
+              unanimously ratified without amendments.
+            </div>
+          </div>
+          <div
+            class="text-lg py-6 border-b-2 border-gray-300 flex flex-col gap-6"
+          >
+            <div class="font-[300] md:flex">
+              <div class="w-36 font-bold">Agenda</div>
+              The minutes of the preceeding regular meeting were reviewed and
+              unanimously ratified without amendments.
+            </div>
+            <div class="font-[300] md:flex">
+              <div class="w-36 font-bold">Outcome</div>
+              The minutes of the preceeding regular meeting were reviewed and
+              unanimously ratified without amendments.
+            </div>
+          </div>
+          <div
+            class="text-lg py-6 border-b-2 border-gray-300 flex flex-col gap-6"
+          >
+            <div class="font-[300] md:flex">
+              <div class="w-36 font-bold">Agenda</div>
+              The minutes of the preceeding regular meeting were reviewed and
+              unanimously ratified without amendments.
+            </div>
+            <div class="font-[300] md:flex">
+              <div class="w-36 font-bold">Outcome</div>
+              The minutes of the preceeding regular meeting were reviewed and
+              unanimously ratified without amendments.
+            </div>
+          </div>
+          <div
+            class="text-lg py-6 border-b-2 border-gray-300 flex flex-col gap-6"
+          >
+            <div class="font-[300] md:flex">
+              <div class="w-36 font-bold">Agenda</div>
+              The minutes of the preceeding regular meeting were reviewed and
+              unanimously ratified without amendments.
+            </div>
+            <div class="font-[300] md:flex">
+              <div class="w-36 font-bold">Outcome</div>
+              The minutes of the preceeding regular meeting were reviewed and
+              unanimously ratified without amendments.
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <div class="mt-12 print-mt-14">
+            <h3 class="text-2xl font-bold mb-4">Any other Business</h3>
+            <p class="text-[20px] font-[300]">
+              The floor was opened for any additional deliberations.
+            </p>
+          </div>
+
+          <div class="mt-12 print-mt-14">
+            <h3 class="text-2xl font-bold mb-4">Closing Remarks</h3>
+            <p class="text-[20px] font-[300]">
+              The President extended sincere appreciation to all attendees for
+              their constructive participation, thoughtful insights and
+              reaffirmed the Club's commitment to impactful service and
+              meaningful fellowship
+            </p>
+          </div>
+          <div class="mt-12 print-mt-14">
+            <h3 class="text-2xl font-bold mb-4">Adjournment</h3>
+            <p class="text-[20px] font-[300]">
+              There being no further business, the meeting was adjourned at 3:30
+              PM, followed by customary fellowship.
+            </p>
+          </div>
+          <div class="mt-14">
+            <h3 class="text-2xl font-bold mb-4">Prepared By</h3>
+            <p class="text-[20px] font-[300]">Subash Sapkota</p>
+
+            <p class="text-[20px] font-[300]">Club Secretary</p>
+            <p class="text-[20px] font-[300]">
+              For Rotary Club of Matribhumi Baluwabar
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="grid md:grid-cols-3 grid-cols-1 print:flex md:space-y-0 space-y-6 md:gap-0 my-20"
+        >
+          <img
+            class="h-[5rem] -rotate-[30deg] object-cover"
+            src="signature.png"
+            alt=""
+          />
+          <img
+            class="h-[5rem] -rotate-[30deg] object-cover"
+            src="signature.png"
+            alt=""
+          />
+          <img
+            class="h-[5rem] -rotate-[30deg] object-cover"
+            src="signature.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
